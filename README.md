@@ -1,4 +1,4 @@
 
-![](asset/images/al.png) 
+![](assets/images/al.png) 
 
 
