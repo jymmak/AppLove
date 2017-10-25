@@ -59,6 +59,7 @@ img {
 a {
   color: #373B47;
   text-decoration: none;
+  margin:20px;
 }
 
 a:hover {
@@ -70,4 +71,138 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+footer{
+    background: #374858;
+    bottom: 0;
+    padding:0;
+    position: fixed;
+    text-align: center;
+    width:1600px;
+}
+  
+header{
+    height: 120px;
+}
+  
+section{
+   
+    text-align: center;
+}
+  
+.nav{ 
+    bottom: auto;
+    box-sizing: border-box;
+    display: inline;
+    left: 200px;
+    padding: 10px;
+    position: absolute;
+    right: auto;
+    top: 50px;
+}
+img[alt="logo"]{
+    margin-left: 1250px;
+    position: absolute;
+    top: 50px;
+    width: 60px;
+}
+  
+img[alt="home"]{
+    position: relative;
+    width: 1700px;
+}
+  
+button{
+    background: #2ECC71;
+    border: 0px;
+    bottom: auto;
+    font-size: 16px;
+    font-weight: 600px;
+    left: 730px;
+    padding: 10px;
+    position: absolute;
+    top: 650px;
+    right: auto;
+}
+  
+button a{
+    color: white;
+}
+  
+article{
+    bottom: 180px;
+    color: white;
+    left: 360px;
+    position: absolute;
+    right: auto;
+    top: auto;
+}
+  
+#article-h2{
+    margin-top: 20px;
+}
+  
+  
+#article-h1{
+      font-size: 60px;
+}
+  
+.box-t{
+    background: #EC7063;  
+}
+  
+.box-t h2{
+    margin: 0px;
+}
+  
+.img-services{
+    width: 190px;
+}
+  
+.box-t-img{
+    color: white;
+    display: inline-block;
+    margin: 40px;
+    padding: 40px;
+}
+  
+.container-section{
+    color: white;
+    position: relative;
+    top: 40px;
+}
+  
+.box-t h6{
+    margin: 0px;
+}
+.hero{
+    background-image:url("../assets/images/laptop.png");
+    display: inline-block;
+    height: 518px;
+    width: 540px;
+}
+.work {
+    border: 2px solid gray;
+    height: 210px;
+    float: left;
+    margin-top: 50px;
+    margin-left:100px;
+    margin-bottom:150px;
+    width: 250px; 
+}
 
+.work img {
+    height: auto;
+    max-width: 100%;
+    min-width: 210px;
+    max-height: 100%;
+    position: relative;
+    width: auto;
+}
+.work p {
+    bottom: 10px;
+    color: black;
+    font-family: 'Sanchez', serif;
+    font-size: 20px;
+    position: relative;
+    text-align: right;
+}
